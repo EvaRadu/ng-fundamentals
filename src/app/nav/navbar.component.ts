@@ -16,7 +16,7 @@ import { EventService } from '../events/shared/event.service';
 
 export class NavBarComponent {
 
-    searchTerm: string = "";
+    searchTerm = "";
     foundSessions: ISession[];
 
 
